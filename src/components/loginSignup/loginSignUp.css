@@ -1,0 +1,137 @@
+:root {
+  font-family: "Poppins", sans-serif;
+
+  --text-color: #eef4ed;
+  --sec-bg-color: #8da9c4;
+  --bg-color: #0b2545;
+  --sec-text-color: #13315c;
+  --thr-color: #134074;
+}
+
+.container {
+  width: 25em;
+
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+
+  margin: auto;
+  margin-top: 90px;
+  padding: 2em;
+
+  border-radius: 1rem;
+
+  background-color: rgba(255, 255, 255, 0.175);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0px 0px 2px #8da9c4;
+}
+.header {
+  /* border: 1px solid; */
+
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--text-color);
+  margin: auto;
+  margin-top: 1rem;
+  padding: 0.2em;
+  filter: drop-shadow(0px 0px 1.5px #13315c );
+} 
+
+
+.inputs {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.input {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 22em;
+  height: 54px;
+  background-color: transparent;
+
+  box-shadow: 0px 0px 1px var(--text-color);
+  border-radius: 6px;
+  transition: all ease;
+}
+.input:hover {
+  box-shadow: 0px 0px 5px var(--text-color);
+  cursor: pointer;
+}
+#icon {
+  margin: 0px 20px;
+  font-size: 1.5rem;
+  color: var(--text-color);
+  filter: drop-shadow(0px 0px 1px #13315c );
+}
+.input input {
+  height: 50px;
+  width: 22em;
+  font-size: 1.2rem;
+  background-color: transparent;
+  border: none;
+  color: var(--text-color);
+  filter: drop-shadow(0px 0px 1.5px #13315c );
+}
+.input input:focus {
+  appearance: none;
+  outline: none;
+}
+.input input::placeholder {
+  color: #eef4ed6d;
+}
+
+.forgot-password{
+    padding-left: 27px;
+    margin-top: 18px;
+    color: #a0a8cbbe;
+    font-size: .9rem;
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 1px #2b2a2a);
+    
+}
+.submit-container{
+    display: flex;
+    gap: 15px;
+    margin: 30px auto;
+
+}
+.Submit-false{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 165px;
+    height: 54px;
+    color: #ffffff;
+    background: #eef4ed32;
+
+    filter: drop-shadow(0px 0px 4px #13315c);
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 2rem;
+
+    border: 1px solid #ffffff6c;
+
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 165px;
+    height: 54px;
+    color: #ffffff;
+    background: rgba(128, 0, 128, 0.821);
+
+    /* filter: drop-shadow(0px 0px 4px #13315c); */
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 2rem;
+
+    border: 1px solid #ffffff6c;
+}
